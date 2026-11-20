@@ -10,6 +10,15 @@ function Navbar() {
         <Link to="/profile">Profile</Link>
         <Link to="/exams">Exams</Link>
         <Link to="/notifications">Notifications</Link>
+        <Link to="/studentform">Student Form</Link>
+        <Link to="/counter">Counter</Link>
+        <div className="nav-links">
+    <Link to="/">Home</Link>
+    <Link to="/profile">Profile</Link>
+    <Link to="/exams">Exams</Link>
+    <Link to="/notifications">Notifications</Link>
+    <Link to="/studentform">Student Form</Link>
+</div>
       </div>
     </nav>
   );

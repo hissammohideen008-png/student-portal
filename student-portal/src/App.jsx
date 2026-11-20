@@ -1,4 +1,6 @@
+import StudentForm from "./components/Studentform";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Counter from "./components/Counter";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -17,14 +19,15 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/:studentId" element={<Profile />} />
         <Route path="/exams" element={<Exams />} />
         <Route path="/notifications" element={<Notifications />} />
-      </Routes>
-
-      <Footer />
+        <Route path="/studentform" element={<StudentForm />} />
+        <Route path="/counter" element={<Counter />} />
+      </Routes>      
     </BrowserRouter>
   );
+  
 }
 
 export default App;

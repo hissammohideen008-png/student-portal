@@ -1,0 +1,76 @@
+.student-page {
+  padding: 30px;
+  text-align: center;
+  background: #f8f9fc;
+  min-height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.buttons button {
+  background: #39b5d0;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+}
+
+.profile-card,
+.student-card,
+.form-card {
+  background: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.profile-card {
+  width: 240px;
+  margin: 20px auto 70px;
+}
+
+.student-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.student-card {
+  width: 220px;
+  border-top: 4px solid #3949ab;
+}
+
+.student-card p {
+  color: #a83434;
+  font-size: 14px;
+}
+
+.form-card {
+  width: 280px;
+  margin: auto;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #642626;
+  border-radius: 7px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  background: #39b5d0;
+  color: rgb(138, 59, 59);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}

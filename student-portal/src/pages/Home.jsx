@@ -1,6 +1,10 @@
-import Card from "../components/card";
+
+import { useNavigate } from "react-router-dom";
+import Card from "../components/Card";
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="container">
 
@@ -10,21 +14,24 @@ function Home() {
       <div className="cards">
 
         <Card
-          name="halaand"
+          name="Haaland"
           department="IT"
           year="3rd Year"
+          onClick={() => navigate("/profile/haaland")}
         />
 
         <Card
           name="Ayesha"
           department="CSE"
           year="3rd Year"
+          onClick={() => navigate("/profile/ayesha")}
         />
 
         <Card
           name="Rifana"
           department="IT"
           year="3rd Year"
+          onClick={() => navigate("/profile/rifana")}
         />
 
       </div>
